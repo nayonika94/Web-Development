@@ -1,0 +1,56 @@
+﻿<%@ Master Language="VB" CodeFile="DotaMasterPage.master.vb" Inherits="DotaMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Dota2Info</title>
+    <link href="layout.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">   
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <header>
+         <asp:Label ID="Label1" runat="server" Text="Welcome To Dota2Info!" Font-Size="XX-Large" style="text-align:center"></asp:Label>
+         <br />
+    </header>       
+   
+    <div>
+        <nav>
+            <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1"></asp:Menu>
+            <asp:SiteMapDataSource runat="server" ID="SiteMapDataSource1"></asp:SiteMapDataSource>
+            <br />
+            <br />
+            <br />
+        </nav>
+         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                       
+             <p>
+                 <br />
+             </p>
+             <p>
+             </p>
+             <p>
+             </p>
+             <p>
+             </p>
+             <p>
+             </p>
+             <p>
+             </p>
+             <p>
+             </p>
+             <p>
+             </p>
+                       
+         </asp:ContentPlaceHolder>
+    </div>
+    <footer>
+        <asp:SiteMapPath ID="SiteMapPath1" runat="server"></asp:SiteMapPath><br />
+         <asp:Label ID="Label2" runat="server" Text="Developed by Tejashree Pradhan, Nayonika Roy and Vinay Tyagi CIS 665-Team 127" Font-Size="Large" Style="text-align:center"></asp:Label>
+    </footer>   
+         
+    </form>
+</body>
+</html>

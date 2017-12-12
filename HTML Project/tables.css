@@ -1,0 +1,89 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 14, 2017, 4:47:22 PM
+    Author     : tsprad
+*/
+
+table {
+    box-shadow: rgba(181, 27, 27, 0.9) 20px 0px 40px, rgb(51, 51, 51) -20px 20px 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table td {
+    
+    color: rgb(26, 198, 255);
+    border: 1px solid white;
+    text-align: center;
+    padding: 10px;
+}
+
+td a:link{
+    text-decoration:none;
+    color: rgb(26, 198, 255);
+    
+}
+
+td a:visited{
+    color: rgb(26, 198, 255);
+}
+
+table#hero td#a {
+    background-color: rgba(117, 20, 20, 0.81);
+}
+
+table#hero td a:visited {
+    color: white;
+}
+
+table#hero td a:link{
+    text-decoration: underline;
+}
+
+table th {
+    background-color: rgba(117, 20, 20, 0.81);
+    color: white;
+}
+
+table#roleDetails td#r{
+    background-color: rgba(117, 20, 20, 0.81);
+}
+
+td#r a:visited{
+    color:white;
+}
+
+table#roleDetails td#r a:link{
+     text-decoration: underline;
+}
+
+table td#s a:visited{
+      color:white;
+}
+
+table td#s a:link{
+    text-decoration: underline;
+}
+
+table td#s a{
+    background-color: rgba(117, 20, 20, 0.81);
+    color: white;
+}
+
+table#updateHead td#up a{
+    background-color: rgba(117, 20, 20, 0.81);
+    color: white;
+}
+
+table#updateHead td#up a:visited{
+    color:white;
+}
+
+table#updateHead td#up a:link
+{
+      text-decoration: underline;
+}

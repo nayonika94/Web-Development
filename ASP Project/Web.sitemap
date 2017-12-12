@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+   <siteMapNode url="~/Home.aspx" title="Home"  description="Dota2Info Home page">
+    <siteMapNode url="~/Character.aspx" title="Character"  description="Dota2Info Character page"></siteMapNode>
+    <siteMapNode url="~/Roles.aspx" title="Roles"  description="Dota2Info Roles page"></siteMapNode>
+    <siteMapNode url="~/Update.aspx" title="Update"  description="Dota2Info Updates page"></siteMapNode>
+   </siteMapNode>
+</siteMap>
